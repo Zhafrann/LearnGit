@@ -1,0 +1,12 @@
+git init
+untuk menginisiasi direktori agar bisa disave di git
+git add
+untuk menambah (stage) file-file ke git
+git status
+mengecek file yang sudah tersimpan (stage)
+git commit -m (-m : argumen)
+untuk menyimpan (commit) ke git
+
+git log (melihat history perubahan file dan lokasi commit hash)
+git reset ea301cc3d1c3302ea2eb0786a147afd661acd813 (commit hash) perlu discard
+git reset --hard ea301cc3d1c3302ea2eb0786a147afd661acd813 (commit hash) tanpa perlu discard
